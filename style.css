@@ -1,3 +1,6 @@
-#card {
-    
-}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    overflow: auto; /* Enable scroll if needed */ 
+    background-color: rgba(217,217,217,0.7); /* Black w/ opacity */
+  }

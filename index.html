@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/bootstrap/js/bootstrap.bundle.min.js">
@@ -27,7 +30,7 @@
                          aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link link-dark fw-bold" onclick="modal()">Sobre</a>
+                        <a class="nav-link link-dark fw-bold" id="modall">Sobre</a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link link-dark fw-bold" href="#">Ajuda</a>
@@ -57,7 +60,7 @@
                 </div>
                   <div class="col">
                     <img src="./assets/images/image2.svg" class="img-fluid" alt="...">
-                    <p>Nossa casa de café é a melhor da 
+                    <p id="fonte">Nossa casa de café é a melhor da 
                        região, aqui você tem tudo que precisa, 
                        uma boa conversar, bons amigos e um 
                        ambiente sem igual. Aproveite, pois 
@@ -80,6 +83,37 @@
                 </div>
               </div>
             </section>
+            
+            <!--   modal -->
+<section>
+  
+  <div id="modalin" class="modal  " tabindex="-1">
+    <div  class="modal-dialog rounded-pill  modal-dialog-centered">
+      <div class="modal-content " >
+        
+        <div class="modal-header">
+          <h1 class="modal-title mx-auto">Quem somos nós? </h1>
+          <button type="button"  class="close border border-0 p-3 mb-2 bg-white text-dark" 
+          data-bs-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body text-center ">
+          <h6>Tudo o que fazemos procura respeitar 
+            essa conexão, desde nosso compromisso 
+            com o café de melhor qualidade do mundo 
+            até a forma como nós interagimos com
+             nossos clientes e nossas comunidades
+              para conduzir nosso negócio de modo
+               responsável.
+          </h6>
+          <img src="./assets/images/cafe.svg" class="rounded mx-auto d-block" alt="...">
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="boot.js"></script>
             
              
     </main>
