@@ -11,79 +11,82 @@
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/bootstrap/js/bootstrap.bundle.min.js">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg shadow-sm" style="background-color: white;">
-        <div class="container-fluid">           
-            <a class="navbar-brand text-light" href="#">
-                <img src="./assets/images/Logo.svg" alt="Logo" width="30" 
-                class="d-inline-block align-text-top ">
-               <a class="nav-link link-dark active fw-bold "
-               aria-current="page" href="#">Dnc Coffee</a>
-            </a>
-            <div class="collapse navbar-collapse navbar-expand-lg text-center  " >
-                <ul class="navbar-nav">
-                    <li class="nav-item px-4 ">
-                        <a class="nav-link link-dark active fw-bold " 
-                         aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link link-dark fw-bold" id="modall">Sobre</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link link-dark fw-bold" href="#">Ajuda</a>
-                    </li>
-                </ul>
-                <a href="" class="btn btn-light rounded-pill ms-auto">Fazer pedido</a>
-            </div>
-            <button class="navbar-toggler bg-light m-3" type="button" data-bs-toggle="collapse" 
-            data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div> 
-    </nav>
-    <main>
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/Logo.svg" alt="Logo" width="30" class="d-inline-block align-text-top">
+        Dnc Coffee
+      </a>
+      <div class="navbar-collapse navbar-expand-sm">
+          <ul class="navbar-nav">
+              <li class="nav-item ps-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" id="modall">Atendimento</a>
+              </li>
+            </ul>
+      </div>
+      <div class="d-flex">
+        <a href="#" class="btn btn-outline-success rounded-pill">Fazer Pedido</a>
+      </div>
+    </div>
+</nav>
+    
         <section >
-            <img src="./assets/images/banner.svg" class="img-fluid" alt="...">
+            <img src="./assets/images/banner.svg" height="300px" width="100%" class="card-img-fluid object-fit-none" alt="...">
         </section>
-        <section class="col-md-12 pt-3">
-            <div class="container-fluid row  col-md-12  text-center p-0 ms-auto">
-                <div class="col-md-12 row row-cols-4">
-                  <div class="col ">
-                    <img src="./assets/images/image1.svg" class="img-fluid" alt="...">
-                    <p>Nossa loja de café se encontra em um lugar, 
+    <main class="card-group">     
+                
+                  <div id="bora" class="card m-3 border-1 rounded-2 text-center" >
+                    <img src="./assets/images/image1.svg" height="150px" id="bora" class="card-img-fluid object-fit-none rounded-2" alt="...">
+                    <p class="mt-4">Nossa loja de café se encontra em um lugar, 
                        100% fictício, porém caso se sinta interessado
                        pode vir tomar um café conosco em nossa sede 
                        em São José dos Campos.</p>
-                </div>
-                  <div class="col">
-                    <img src="./assets/images/image2.svg" class="img-fluid" alt="...">
-                    <p id="fonte">Nossa casa de café é a melhor da 
+                  </div>
+
+                  <div id="bora"  class="card m-3 border-1 rounded-2 text-center">
+                    <img src="./assets/images/image2.svg" height="150px" class="card-img-fluid object-fit-none rounded-2" alt="...">
+                    <p class="mt-4" id="fonte">Nossa casa de café é a melhor da 
                        região, aqui você tem tudo que precisa, 
                        uma boa conversar, bons amigos e um 
                        ambiente sem igual. Aproveite, pois 
                        Melhor que a DNC não existe!</p>
-                </div>
-                  <div class="col mt-1">
-                    <img src="./assets/images/image3.svg" class="img-fluid" alt="...">
-                    <p>Por que a DNC? Porque podem contar 
+                  </div>
+
+                  <div id="bora"  class="card m-3 border-1 rounded-2 text-center">
+                    <img id="fruta1" src="./assets/images/image3.svg" height="150px" class="card-img-fluid object-fit-none rounded-2" alt="...">
+                    <p class="mt-4" class="">Por que a DNC? Porque podem contar 
                         sempre com um serviço genuíno, uma 
                         atmosfera acolhedora e uma incrível 
                         xícara de café, torrado por especialistas 
                         e preparado de forma enriquecedora.</p> 
                   </div>
-                  <div class="col">
-                    <img src="./assets/images/image4.svg" class="img-fluid" alt="...">
-                    <p>A escola especialista em formar talentos, 
+
+                  <div id="bora"  class="card m-3 border-1 rounded-2 text-center">
+                    <img src="./assets/images/image4.svg" height="150px" class="card-img-fluid object-fit-none rounded-2" alt="...">
+                    <p class="mt-4">A escola especialista em formar talentos, 
                         com foco em empregabilidade, migração de 
                         carreira e aumento de performance.</p>  
-                </div>
-                </div>
-              </div>
-            </section>
-            
+                        <input id="aparecer" type="button" value="COMPRAR AGORA">
+                  </div>
+                
+                
+    </main>       
             <!--   modal -->
 <section>
   
@@ -92,23 +95,24 @@
       <div class="modal-content " >
         
         <div class="modal-header">
-          <h1 class="modal-title mx-auto">Quem somos nós? </h1>
+          <h3 class="modal-title mx-auto text-center">Atendimento</h3>
           <button type="button"  class="close border border-0 p-3 mb-2 bg-white text-dark" 
           data-bs-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body text-center ">
-          <h6>Tudo o que fazemos procura respeitar 
-            essa conexão, desde nosso compromisso 
-            com o café de melhor qualidade do mundo 
-            até a forma como nós interagimos com
-             nossos clientes e nossas comunidades
-              para conduzir nosso negócio de modo
-               responsável.
-          </h6>
-          <img src="./assets/images/cafe.svg" class="rounded mx-auto d-block" alt="...">
+          <h5>Rua José de Alencar, 111, Centro </h5>
+          <h5>  CEP: 12209-000 | +55 (11) 3333-8000 </h5>
+         <br>
+         <br>
+         <br> 
+          
+        
+        
+          <button href="" id="contato" type="button" value="verificar">ENTRAR EM CONTATO</button>
+
+          <br>
+          <br>
         </div>
-       
-      </div>
     </div>
   </div>
 </section>

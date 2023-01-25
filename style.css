@@ -1,6 +1,29 @@
+nav {
+    font-family: 'Inter';
+}
+main p  {
+    font-family: 'Segoe UI';
+}
+
+h3, h5 {
+    font-family: 'Montserrat';
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     overflow: auto; /* Enable scroll if needed */ 
     background-color: rgba(217,217,217,0.7); /* Black w/ opacity */
   }
+
+#contato {
+    background-color: #2A3342;
+    border-radius: 10px;
+    color: white;
+    width: 253px;
+    height: 48px;
+}
+
+#bora:hover {
+    background-color: green;
+}
