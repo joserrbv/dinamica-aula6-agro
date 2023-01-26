@@ -17,6 +17,4 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-var apare = document.getElementById("aparecer")
-
 

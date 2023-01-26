@@ -18,12 +18,30 @@ h3, h5 {
 
 #contato {
     background-color: #2A3342;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
-    width: 253px;
-    height: 48px;
+    width: 203px;
+   
+    font-size: 16px;
 }
 
-#bora:hover {
-    background-color: green;
+#aparecer{
+    display: none;
+    background-color: #2A3342;
+    border-radius: 10px;
+    color: white;
+    width: 202px;
+    height: 48px;
+    font-family: 'Raleway';
+    font-size: 20px;
+
+}
+
+#bora:hover #aparecer {
+    display: block;
+}
+
+
+p {
+    font-size: 14px;
 }
